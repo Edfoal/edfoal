@@ -21,7 +21,7 @@ function Navbar() {
           <li className="flex">
             <a
               href="/"
-              className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent dark:text-violet-400 dark:border-violet-400">
+              className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent dark:text-violet-500 dark:border-violet-500">
               Home
             </a>
           </li>
@@ -65,7 +65,7 @@ function Navbar() {
           <button className="self-center px-8 py-3 rounded hover:shadow-xl">
             Sign in
           </button>
-          <button className="self-center px-8 py-3 font-semibold rounded dark:bg-violet-400 dark:text-coolGray-900 hover:drop-shadow-xl">
+          <button className="self-center px-8 py-3 font-semibold rounded dark:bg-violet-500 dark:text-white hover:drop-shadow-xl">
             Sign up
           </button>
         </div>

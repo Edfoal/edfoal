@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4">
             <div>
               <img src={logo} alt="Edfoal Logo" />
-              <p className="font-medium tracking-wide text-gray-300">Edfoal</p>
+              <p className="font-medium tracking-wide text-gray-300"></p>
               {/* <ul className="mt-2 space-y-2">
                 <li>
                   <a
@@ -43,76 +43,60 @@ const Footer = () => {
             </div>
 
             <div>
-              <p className="font-medium tracking-wide text-gray-300">Cherry</p>
+              <p className="font-medium tracking-wide text-gray-300">Support</p>
               <ul className="mt-2 space-y-2">
                 <li>
                   <a
                     href="/"
                     className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200">
-                    Media
+                    Contact Us
                   </a>
                 </li>
                 <li>
                   <a
                     href="/"
                     className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200">
-                    Brochure
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/"
-                    className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200">
-                    Nonprofit
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/"
-                    className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200">
-                    Educational
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/"
-                    className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200">
-                    Projects
+                    FAQ
                   </a>
                 </li>
               </ul>
             </div>
             <div>
-              <p className="font-medium tracking-wide text-gray-300">
-                Business
-              </p>
+              <p className="font-medium tracking-wide text-gray-300">Edfoal</p>
               <ul className="mt-2 space-y-2">
                 <li>
                   <a
                     href="/"
                     className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200">
-                    Infopreneur
+                    About Us
                   </a>
                 </li>
                 <li>
                   <a
                     href="/"
                     className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200">
-                    Personal
+                    Community
                   </a>
                 </li>
                 <li>
                   <a
                     href="/"
                     className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200">
-                    Wiki
+                    RoadMaps
                   </a>
                 </li>
                 <li>
                   <a
                     href="/"
                     className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200">
-                    Forum
+                    Upcoming Events
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/"
+                    className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200">
+                    Partners
                   </a>
                 </li>
               </ul>
@@ -127,11 +111,11 @@ const Footer = () => {
                 placeholder="Email"
                 required
                 type="text"
-                className="flex-grow w-full h-12 px-4 mb-3 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none md:mr-2 md:mb-0 focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
+                className="flex-grow w-full h-12 px-4 mb-3 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none md:mr-2 md:mb-0 focus:border-purple-400 focus:outline-none focus:shadow-outline"
               />
               <button
                 type="submit"
-                className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none">
+                className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-purple-400 hover:bg-purple-700 focus:shadow-outline focus:outline-none">
                 Subscribe
               </button>
             </form>
