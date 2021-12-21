@@ -4,7 +4,7 @@ const Reviews = () => {
   return (
     <section class="text-gray-600 body-font">
       <div class="container px-5 py-24 mx-auto">
-        <h1 class="text-5xl text-black font-medium title-font text-gray-900 mb-12 text-center">
+        <h1 class="text-5xl font-medium title-font text-gray-900 mb-12 text-center">
           Hear from our students
         </h1>
         <div class="flex flex-wrap -m-4">
