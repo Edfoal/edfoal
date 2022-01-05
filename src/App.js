@@ -1,15 +1,48 @@
+/* eslint-disable no-unused-vars */
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import LandingPage from "./Pages/LandingPage";
+import NotFound from "./components/NotFound";
+import ComingSoon from "./components/ComingSoon";
+import LandingPage from "./components/Pages/LandingPage";
+import SignIn from "./components/Pages/SignIn";
+import SignUp from "./components/Pages/SignUp";
+import TeamPage from "./components/Pages/TeamPage";
+
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+  Link,
+  Outlet,
+  useParams,
+} from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
+    <Router className="App">
       <Navbar />
-      <LandingPage />
+
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/404" element={<NotFound />} />
+        <Route path="/team" element={<TeamPage />} />
+        <Route
+          path="/roadmaps"
+          element={<Navigate replace to="/comingsoon" />}
+        />
+        <Route path="/events" element={<Navigate replace to="/comingsoon" />} />
+        <Route
+          path="/community"
+          element={<Navigate replace to="/comingsoon" />}
+        />
+        <Route path="/comingsoon" element={<ComingSoon />} />
+        <Route path="/signin" element={<SignIn />} />
+        <Route path="/register" element={<SignUp />} />
+      </Routes>
       <Footer />
-    </div>
+    </Router>
   );
 }
 

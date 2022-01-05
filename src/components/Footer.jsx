@@ -10,36 +10,6 @@ const Footer = () => {
             <div>
               <img src={logo} alt="Edfoal Logo" />
               <p className="font-medium tracking-wide text-gray-300"></p>
-              {/* <ul className="mt-2 space-y-2">
-                <li>
-                  <a
-                    href="/"
-                    className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200">
-                    News
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/"
-                    className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200">
-                    World
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/"
-                    className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200">
-                    Games
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/"
-                    className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200">
-                    References
-                  </a>
-                </li>
-              </ul> */}
             </div>
 
             <div>
