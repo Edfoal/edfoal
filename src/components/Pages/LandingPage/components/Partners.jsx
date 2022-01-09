@@ -5,7 +5,7 @@ import yomatech from "../../../../assets/Partners/yomatechnologies.png";
 
 const Partners = () => {
   return (
-    <div>
+    <div id="our-partners">
       <section class="text-gray-600 body-font">
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-col text-center w-full mb-12">
@@ -13,9 +13,9 @@ const Partners = () => {
               Our Partners
             </h1>
           </div>
-          <div class="flex flex-wrap -m-4">
+          <div class="flex flex-wrap md:-m-4">
             <div class="lg:w-1/3 sm:w-1/2 p-4">
-              <div class="flex relative">
+              <div class="flex relative  -mt-20 md:mt-0">
                 <img
                   alt="gallery"
                   class="absolute inset-y-8 w-1200 h-720 object-cover object-center"
@@ -23,20 +23,16 @@ const Partners = () => {
                   src={cvt}
                 />
                 <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                  <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
-                    THE SUBTITLE
-                  </h2>
                   <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-                    Shooting Stars
+                    Core Value Technologies
                   </h1>
                   <p class="leading-relaxed">
-                    Photo booth fam kinfolk cold-pressed sriracha leggings
-                    jianbing microdosing tousled waistcoat.
+                    Bridging the gaps between digital experiences
                   </p>
                 </div>
               </div>
             </div>
-            <div class="lg:w-1/3 sm:w-1/2 p-4">
+            <div class="lg:w-1/3 sm:w-1/2 p-4   -mt-20 md:mt-0">
               <div class="flex relative">
                 <img
                   alt="gallery"
@@ -45,20 +41,18 @@ const Partners = () => {
                   src={concirrus}
                 />
                 <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                  <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
-                    THE SUBTITLE
-                  </h2>
                   <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-                    The Catalyzer
+                    Concirrus.AI
                   </h1>
                   <p class="leading-relaxed">
-                    Photo booth fam kinfolk cold-pressed sriracha leggings
-                    jianbing microdosing tousled waistcoat.
+                    Concirrus.AI, partner of choice for the IoT powered
+                    commercial insurance market - AI, data, analytics, risk
+                    modelling, tech and more...
                   </p>
                 </div>
               </div>
             </div>
-            <div class="lg:w-1/3 sm:w-1/2 p-4">
+            <div class="lg:w-1/3 sm:w-1/2 p-4   -mt-20 md:mt-0">
               <div class="flex relative">
                 <img
                   alt="gallery"
@@ -67,15 +61,11 @@ const Partners = () => {
                   src={yomatech}
                 />
                 <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                  <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
-                    THE SUBTITLE
-                  </h2>
                   <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-                    The 400 Blows
+                    Yoma Technologies
                   </h1>
                   <p class="leading-relaxed">
-                    Photo booth fam kinfolk cold-pressed sriracha leggings
-                    jianbing microdosing tousled waistcoat.
+                    Delivering enterprise IT solutions that make a difference
                   </p>
                 </div>
               </div>

@@ -14,9 +14,6 @@ import {
   Routes,
   Route,
   Navigate,
-  Link,
-  Outlet,
-  useParams,
 } from "react-router-dom";
 
 function App() {

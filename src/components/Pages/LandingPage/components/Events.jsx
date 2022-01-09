@@ -1,9 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import SDE from "../../../../assets/events/SDE.jpeg";
+import CCL from "../../../../assets/events/CCL.jpeg";
+import WDE from "../../../../assets/events/wde.png";
 
 const Events = () => {
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-      <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+      <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 text-center sm:text-4xl md:mx-auto">
         <span className="relative inline-block">
           <svg
             viewBox="0 0 52 24"
@@ -30,83 +34,81 @@ const Events = () => {
       </h2>
 
       <div className="grid gap-6 row-gap-5 mb-8 lg:grid-cols-4 sm:row-gap-6 sm:grid-cols-2">
-        <a href="/" aria-label="View Item">
+        <Link to="/events" aria-label="View Item">
           <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
             <img
-              className="object-cover w-full h-56 md:h-64 xl:h-80"
-              src="https://images.pexels.com/photos/3184311/pexels-photo-3184311.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500"
-              alt=""
-            />
-            <div className="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
-              <p className="mb-4 text-lg font-bold text-gray-100">Mona Lisa</p>
-              <p className="text-sm tracking-wide text-gray-300">
-                Painted between 1503 and 1517, Da Vinci’s alluring portrait has
-                been dogged by two questions since the day it was made: Who’s
-                the subject and why is she smiling?
-              </p>
-            </div>
-          </div>
-        </a>
-        <a href="/" aria-label="View Item">
-          <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
-            <img
-              className="object-cover w-full h-56 md:h-64 xl:h-80"
-              src="https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-              alt=""
+              className="object-cover object-fill w-full h-56 md:h-64 xl:h-80"
+              src={SDE}
+              alt="SDE Roadmap"
             />
             <div className="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
               <p className="mb-4 text-lg font-bold text-gray-100">
-                The Starry Night
+                SDE Roadmap
               </p>
               <p className="text-sm tracking-wide text-gray-300">
-                Vincent Van Gogh’s most popular painting, The Starry Night was
-                created by Van Gogh at the asylum in Saint-Rémy, where he’d
-                committed himself in 1889.
+                A complete roadmap and training for SDE. A step by step guide to
+                get you ready for the industry and landing your dream job as
+                SDE.
               </p>
             </div>
           </div>
-        </a>
-        <a href="/" aria-label="View Item">
+        </Link>
+        <Link to="/events" aria-label="View Item">
           <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
             <img
-              className="object-cover w-full h-56 md:h-64 xl:h-80"
-              src="https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-              alt=""
+              className="object-cover  object-fill w-full h-56 md:h-64 xl:h-80"
+              src={CCL}
+              alt="College Chapter Lead"
+            />
+            <div className="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
+              <p className="mb-4 text-lg font-bold text-gray-100">
+                College Chapter Lead
+              </p>
+              <p className="text-sm tracking-wide text-gray-300">
+                Become our College Campus Chapter Leader and Get Learning
+                opportunities and goodies
+              </p>
+            </div>
+          </div>
+        </Link>
+        <Link to="/events" aria-label="View Item">
+          <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
+            <img
+              className="object-cover object-fill w-full h-56 md:h-64 xl:h-80"
+              src={WDE}
+              alt="Frontend Development Roadmap"
             />
             <div className="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
               <p className="mb-4 text-lg font-bold text-gray-100">The Kiss</p>
               <p className="text-sm tracking-wide text-gray-300">
-                Opulently gilded and extravagantly patterned, The Kiss, Gustav
-                Klimt’s fin-de-siècle portrayal of intimacy, is a mix of
-                Symbolism and Vienna Jugendstil, the Austrian variant of Art
-                Nouveau.
+                Get yourself ready for the industry as a frontend developer.
               </p>
             </div>
           </div>
-        </a>
-        <a href="/" aria-label="View Item">
+        </Link>
+        <Link to="/events" aria-label="View Item">
           <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
             <img
-              className="object-cover w-full h-56 md:h-64 xl:h-80"
-              src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-              alt=""
+              className="object-fill w-full h-56 md:h-64 xl:h-80"
+              src={SDE}
+              alt="Software Development Engineer"
             />
             <div className="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
               <p className="mb-4 text-lg font-bold text-gray-100">
-                The Harvesters
+                Software Development Roadmap
               </p>
               <p className="text-sm tracking-wide text-gray-300">
-                Bruegel’s fanfare for the common man is considered one of the
-                defining works of Western art. This composition was one of six
-                created on the theme of the seasons.
+                A complete roadmap and training for SDE. A step by step guide to
+                get you ready for the industry and landing your dream job as
+                SDE.
               </p>
             </div>
           </div>
-        </a>
+        </Link>
       </div>
       <div className="text-center">
-        <a
-          href="/"
+        <Link
+          to="/events"
           aria-label=""
           className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">
           View more
@@ -116,7 +118,7 @@ const Events = () => {
             viewBox="0 0 12 12">
             <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z" />
           </svg>
-        </a>
+        </Link>
       </div>
     </div>
   );

@@ -43,11 +43,11 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="/"
+                  <Link
+                    to="/community"
                     className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200">
                     Community
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <a
@@ -73,7 +73,7 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <div className="md:max-w-md lg:col-span-2">
+          <div className="md:max-w-md lg:col-span-2 pt-10 md:pt-0">
             <span className="text-base font-medium tracking-wide text-gray-300">
               Subscribe for updates
             </span>

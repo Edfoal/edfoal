@@ -7,8 +7,8 @@ const Navbar = () => {
   let { id } = useParams();
   return (
     <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
-      <div class="relative flex items-center justify-between">
-        <div class="flex md:fixed top-0 w-full bg-white z-10 pt-4 items-center">
+      <div class="relative flex items-center justify-between ">
+        <div class="flex md:fixed top-0 right-0 w-full bg-white z-10 pt-4 items-center sm:px-4 shadow-sm">
           <Link
             to="/"
             aria-label="Home"
@@ -21,78 +21,73 @@ const Navbar = () => {
           </Link>
           <ul className="items-stretch hidden space-x-3 lg:flex ">
             <li className="flex">
-              <NavLink
+              <Link
                 to="/"
-                // className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent dark:text-violet-500 dark:border-violet-500"
-                className={
-                  id === undefined
-                    ? "flex items-center px-4 -mb-1 border-b-2 dark:border-transparent dark:text-violet-500 dark:border-violet-500 text-violet-500 border-violet-500"
-                    : "flex items-center px-4 -mb-1 border-b-2 dark:border-transparent border-transparent  hover:border-b-1 hover:border-b-violet-400"
-                }>
+                className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent hover:border-b-1 hover:border-b-violet-400 ">
                 Home
-                {console.log(id)}
-              </NavLink>
+              </Link>
             </li>
             <li className="flex">
-              <NavLink
-                to="community"
-                // className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent  hover:border-b-1 hover:border-b-violet-400 ">
-
+              <Link
+                to="/community"
                 className={
                   id === "/community"
                     ? "flex items-center px-4 -mb-1 border-b-2 dark:border-transparent dark:text-violet-500 dark:border-violet-500"
                     : "flex items-center px-4 -mb-1 border-b-2 dark:border-transparent  hover:border-b-1 hover:border-b-violet-400"
                 }>
                 Community
-              </NavLink>
+              </Link>
             </li>
             <li className="flex">
-              <a
-                href="/"
+              <Link
+                to="/roadmaps"
                 className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent hover:border-b-1 hover:border-b-violet-400 ">
                 Roadmaps
-              </a>
+              </Link>
             </li>
             <li className="flex">
-              <a
-                href="/"
-                className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent hover:border-b-1 hover:border-b-violet-400 ">
+              <Link
+                to="#about-us"
+                className="flex items-center px-4 -mb-1
+                border-b-2 dark:border-transparent hover:border-b-1
+                hover:border-b-violet-400 ">
+                {" "}
                 About Us
-              </a>
+              </Link>
             </li>
             <li className="flex">
-              <a
-                href="/"
+              <Link
+                to="#our-partners"
                 className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent hover:border-b-1 hover:border-b-violet-400 ">
                 Partners
-              </a>
+              </Link>
             </li>
             <li className="flex">
-              <a
-                href="/"
+              <Link
+                to="/events"
                 className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent hover:border-b-1 hover:border-b-violet-400 ">
                 Events
-              </a>
+              </Link>
             </li>
           </ul>
           <ul class="flex items-center ml-28 hidden space-x-8 lg:flex">
             <li>
-              <a
-                href="/"
+              <Link
+                to="/signin"
                 aria-label="Sign in"
                 title="Sign in"
-                class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">
+                class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-purple-400">
                 Sign in
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="/"
-                class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+              <Link
+                to="/register"
+                class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-purple-400 hover:bg-purple-700 focus:shadow-outline focus:outline-none"
                 aria-label="Sign up"
                 title="Sign up">
                 Sign up
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -100,7 +95,7 @@ const Navbar = () => {
           <button
             aria-label="Open Menu"
             title="Open Menu"
-            class="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-deep-purple-50 focus:bg-deep-purple-50"
+            class="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-purple-50 focus:bg-purple-50"
             onClick={() => setIsMenuOpen(true)}>
             <svg class="w-5 text-gray-600" viewBox="0 0 24 24">
               <path
@@ -118,33 +113,17 @@ const Navbar = () => {
             </svg>
           </button>
           {isMenuOpen && (
-            <div class="absolute top-0 left-0 w-full">
+            <div class="absolute top-0 left-0 z-10 w-full">
               <div class="p-5 bg-white border rounded shadow-sm">
                 <div class="flex items-center justify-between mb-4">
-                  <div>
-                    <a
-                      href="/"
-                      aria-label="Company"
-                      title="Company"
+                  <div class="-mx-8">
+                    <Link
+                      to="/"
+                      aria-label="Home"
+                      title="Home"
                       class="inline-flex items-center">
-                      <svg
-                        class="w-8 text-deep-purple-accent-400"
-                        viewBox="0 0 24 24"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeMiterlimit="10"
-                        stroke="currentColor"
-                        fill="none">
-                        <rect x="3" y="1" width="7" height="12" />
-                        <rect x="3" y="17" width="7" height="6" />
-                        <rect x="14" y="1" width="7" height="6" />
-                        <rect x="14" y="11" width="7" height="12" />
-                      </svg>
-                      <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-                        Company
-                      </span>
-                    </a>
+                      <img src={logo} class="w-full h-16" alt="Edfoal Logo" />
+                    </Link>
                   </div>
                   <div>
                     <button
@@ -164,58 +143,59 @@ const Navbar = () => {
                 <nav>
                   <ul class="space-y-4">
                     <li>
-                      <a
-                        href="/"
-                        aria-label="Our product"
-                        title="Our product"
-                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">
-                        Product
-                      </a>
+                      <Link
+                        to="/"
+                        aria-label="Home"
+                        title="Home"
+                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-purple-400">
+                        Home
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/"
-                        aria-label="Our product"
-                        title="Our product"
-                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">
-                        Features
-                      </a>
+                      <Link
+                        to="/community"
+                        aria-label="Our Community"
+                        title="Our Community"
+                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-purple-400">
+                        Community
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/"
-                        aria-label="Product pricing"
-                        title="Product pricing"
-                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">
-                        Pricing
-                      </a>
+                      <Link
+                        to="/roadmaps"
+                        aria-label="Roadmaps"
+                        title="Roadmaps"
+                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-purple-400">
+                        Roadmaps
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/"
-                        aria-label="About us"
-                        title="About us"
-                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">
-                        About us
-                      </a>
+                      <Link
+                        to="/events"
+                        aria-label="Events"
+                        title="Events"
+                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-purple-400">
+                        Events
+                      </Link>
                     </li>
+
                     <li>
-                      <a
-                        href="/"
+                      <Link
+                        to="/signin"
                         aria-label="Sign in"
                         title="Sign in"
-                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">
+                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-purple-400">
                         Sign in
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/"
-                        class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+                      <Link
+                        to="/register"
+                        class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-purple-400 hover:bg-purple-700 focus:shadow-outline focus:outline-none"
                         aria-label="Sign up"
                         title="Sign up">
                         Sign up
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </nav>

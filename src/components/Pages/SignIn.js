@@ -1,5 +1,6 @@
 import React from "react";
 import image from "../../assets/signin.svg";
+import { Link } from "react-router-dom";
 
 const SignIn = () => {
   return (
@@ -132,12 +133,12 @@ const SignIn = () => {
                       </label>
                     </div>
                     <div class="text-sm">
-                      <a
-                        href="#"
+                      <Link
+                        to="/forgot-password"
                         class="font-medium text-blue-600 hover:text-blue-500">
                         {" "}
                         Forgot your password?{" "}
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <div>
