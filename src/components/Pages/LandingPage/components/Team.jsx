@@ -1,5 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import VinodSir from "../../../../assets/team/VinodSir.jpeg";
+import RajdeepSir from "../../../../assets/team/RajdeepSir.jpeg";
+import HimanshuSir from "../../../../assets/team/HimanshuSir.jpeg";
+import DeepakSir from "../../../../assets/team/DeepakSir.jpeg";
 
 export const Team = () => {
   return (
@@ -13,8 +17,8 @@ export const Team = () => {
         <div className="grid sm:grid-cols-3">
           <div className="relative w-full h-48 max-h-full rounded shadow sm:h-auto">
             <img
-              className="absolute object-cover w-full h-full rounded"
-              src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+              className="absolute object-scale-down md:object-fill  w-full h-full rounded"
+              src={VinodSir}
               alt="Person"
             />
           </div>
@@ -46,8 +50,8 @@ export const Team = () => {
         <div className="grid sm:grid-cols-3">
           <div className="relative w-full h-48 max-h-full rounded shadow sm:h-auto">
             <img
-              className="absolute object-cover w-full h-full rounded"
-              src="https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              className="absolute object-scale-down md:object-fill w-full h-full rounded"
+              src={HimanshuSir}
               alt="Person"
             />
           </div>
@@ -78,8 +82,8 @@ export const Team = () => {
         <div className="grid sm:grid-cols-3">
           <div className="relative w-full h-48 max-h-full rounded shadow sm:h-auto">
             <img
-              className="absolute object-cover w-full h-full rounded"
-              src="https://images.pexels.com/photos/3747435/pexels-photo-3747435.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              className="absolute object-scale-down md:object-fill w-full   h-full rounded"
+              src={DeepakSir}
               alt="Person"
             />
           </div>
@@ -110,8 +114,8 @@ export const Team = () => {
         <div className="grid sm:grid-cols-3">
           <div className="relative w-full h-48 max-h-full rounded shadow sm:h-auto">
             <img
-              className="absolute object-cover w-full h-full rounded"
-              src="https://images.pexels.com/photos/3931603/pexels-photo-3931603.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              className="absolute object-scale-down md:object-fill w-full h-full rounded"
+              src={RajdeepSir}
               alt="Person"
             />
           </div>
