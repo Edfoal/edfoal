@@ -13,7 +13,7 @@ const Navbar = () => {
             to="/"
             aria-label="Home"
             title="Home"
-            class="inline-flex items-center mr-8">
+            class="object-fill h-20 w-60 inline-flex items-center mr-8">
             <img
               src={logo}
               alt="Edfoal Logo"
