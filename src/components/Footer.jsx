@@ -90,10 +90,10 @@ const Footer = () => {
                 Subscribe
               </button>
             </form>
-            <p className="mt-4 text-sm text-gray-500">
+            {/* <p className="mt-4 text-sm text-gray-500">
               Bacon ipsum dolor amet short ribs pig sausage prosciuto chicken
               spare ribs salami.
-            </p>
+            </p> */}
           </div>
         </div>
         <div className="flex flex-col justify-between pt-5 pb-10 border-t border-gray-800 sm:flex-row">
