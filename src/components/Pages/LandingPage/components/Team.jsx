@@ -1,9 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import VinodSir from "../../../../assets/team/VinodSir.jpeg";
-import RajdeepSir from "../../../../assets/team/RajdeepSir.jpeg";
-import HimanshuSir from "../../../../assets/team/HimanshuSir.jpeg";
-import DeepakSir from "../../../../assets/team/DeepakSir.jpeg";
 
 export const Team = () => {
   return (
@@ -18,7 +14,7 @@ export const Team = () => {
           <div className="relative w-full h-48 max-h-full rounded shadow sm:h-auto">
             <img
               className="absolute object-scale-down md:object-fill  w-full h-full rounded"
-              src={VinodSir}
+              src="https://i.imgur.com/hCNGiPc.jpg"
               alt="Person"
             />
           </div>
@@ -50,7 +46,7 @@ export const Team = () => {
           <div className="relative w-full h-48 max-h-full rounded shadow sm:h-auto">
             <img
               className="absolute object-scale-down md:object-fill w-full h-full rounded"
-              src={HimanshuSir}
+              src="https://i.imgur.com/mTzqkl9.jpg"
               alt="Person"
             />
           </div>
@@ -79,7 +75,7 @@ export const Team = () => {
           <div className="relative w-full h-48 max-h-full rounded shadow sm:h-auto">
             <img
               className="absolute object-scale-down md:object-fill w-full   h-full rounded"
-              src={DeepakSir}
+              src="https://i.imgur.com/u47FfUI.jpg"
               alt="Person"
             />
           </div>
@@ -108,7 +104,7 @@ export const Team = () => {
           <div className="relative w-full h-48 max-h-full rounded shadow sm:h-auto">
             <img
               className="absolute object-scale-down md:object-fill w-full h-full rounded"
-              src={RajdeepSir}
+              src="https://i.imgur.com/LKIIoBe.jpg"
               alt="Person"
             />
           </div>

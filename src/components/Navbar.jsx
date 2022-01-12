@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Link, NavLink, useParams } from "react-router-dom";
-import logo from "../assets/components/logo.png";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,7 +14,7 @@ const Navbar = () => {
             title="Home"
             class="object-fill h-20 w-60 inline-flex items-center mr-8">
             <img
-              src={logo}
+              src="https://i.imgur.com/SAyzu8b.png"
               alt="Edfoal Logo"
               className="w-full h-16 dark:text-violet-400"></img>
           </Link>
@@ -122,7 +121,11 @@ const Navbar = () => {
                       aria-label="Home"
                       title="Home"
                       class="inline-flex items-center">
-                      <img src={logo} class="w-full h-16" alt="Edfoal Logo" />
+                      <img
+                        src="https://i.imgur.com/SAyzu8b.png"
+                        class="w-full h-16"
+                        alt="Edfoal Logo"
+                      />
                     </Link>
                   </div>
                   <div>

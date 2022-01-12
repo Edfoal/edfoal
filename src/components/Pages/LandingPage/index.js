@@ -1,6 +1,6 @@
 import React from "react";
 import Team from "./components/Team";
-import Placement from "./components/Placement";
+// import Placement from "./components/Placement";
 import Reviews from "./components/Reviews";
 import WhoWeAre from "./components/JoinDiscord";
 import WhatWeHave from "./components/WhatWeHave";
@@ -19,7 +19,6 @@ const index = () => {
       <Events />
       <Team />
       <Reviews />
-      <Placement />
       <Partners />
     </div>
   );

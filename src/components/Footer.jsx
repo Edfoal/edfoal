@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../assets/edfoal-logo.png";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -9,7 +8,7 @@ const Footer = () => {
         <div className="grid row-gap-10 mb-8 lg:grid-cols-6">
           <div className="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4">
             <div className="hidden md:block">
-              <img src={logo} alt="Edfoal Logo" />
+              <img src="https://i.imgur.com/OhERUjG.png" alt="Edfoal Logo" />
               <p className="font-medium tracking-wide text-gray-300"></p>
             </div>
 
@@ -90,10 +89,10 @@ const Footer = () => {
                 Subscribe
               </button>
             </form>
-            <p className="mt-4 text-sm text-gray-500">
+            {/* <p className="mt-4 text-sm text-gray-500">
               Bacon ipsum dolor amet short ribs pig sausage prosciuto chicken
               spare ribs salami.
-            </p>
+            </p> */}
           </div>
         </div>
         <div className="flex flex-col justify-between pt-5 pb-10 border-t border-gray-800 sm:flex-row">

@@ -17,7 +17,7 @@ const Reviews = (props) => {
                 viewBox="0 0 975.036 975.036">
                 <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
               </svg>
-              <p class="leading-relaxed mb-6">
+              <p class="leading-relaxed mb-[72px]">
                 The resources provided by the Edfoal Team were really amazing
                 and also Rajdeep Sir who have cleared all my doubts which helped
                 me to become Wde Intern in Core Value Technologies. So last but
@@ -27,11 +27,11 @@ const Reviews = (props) => {
                 giving me this opportunity to become a part of Front End
                 Development Roadmap.
               </p>
-              <a class="inline-flex items-center" href="/">
+              <div class="inline-flex items-center">
                 <img
                   alt="testimonial"
-                  src="https://dummyimage.com/106x106"
-                  class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"></img>
+                  src="https://i.imgur.com/L1QUAUA.jpg"
+                  class="w-12 h-12 rounded-full object-fill flex-shrink-0 object-center"></img>
                 <span class="flex-grow flex flex-col pl-4">
                   <span class="title-font font-medium text-gray-900">
                     Ashwath Thadishetty
@@ -40,7 +40,7 @@ const Reviews = (props) => {
                     Intern - Core Value Technologies
                   </span>
                 </span>
-              </a>
+              </div>
             </div>
           </div>
           <div class="p-4 md:w-1/2 w-full">
@@ -53,26 +53,30 @@ const Reviews = (props) => {
                 <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
               </svg>
               <p class="leading-relaxed mb-6">
-                I want to thank whole team of edfoal to providing me such a good
-                roadmap because of that excellent roadmap i am able to brush up
-                my java and able to crack 3 offers. Deepak clears all our doubt
-                and gives questions daily , not only question but a bunch of
-                knowledege about the field. He guides and help the student very
-                help . If you are finding a roadmap or a helping hand please
-                come here , it will be work. Thanks to the whole team of Edfoal.
+                First of all, I want to give my warm wishes to the team of
+                EdFoal, that they are doing such appreciable works. Honestly, I
+                was a very average student in the field of software development.
+                I knew a few definitions and theories. But, EdFoal guided me
+                taught me that how can I apply things and what are their uses.
+                They gave me a path to develop my career as a software
+                development engineer. Thank you Deepak Singh Sir for mentoring
+                me. He had cleared most of my doubts. The environment that was
+                given by EdFoal was very flexible and reliable. So, I want to
+                say thank you EdFoal for including me in the SDE Roadmap
+                journey.
               </p>
-              <a class="inline-flex items-center" href="/">
+              <div class="inline-flex items-center" href="/">
                 <img
                   alt="testimonial"
-                  src="https://dummyimage.com/107x107"
-                  class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"></img>
+                  src="https://i.imgur.com/ZSkXWAy.jpg"
+                  class="w-12 h-12 rounded-full flex-shrink-0 object-top object-center"></img>
                 <span class="flex-grow flex flex-col pl-4">
                   <span class="title-font font-medium text-gray-900">
-                    Alper Kamu
+                    Arunabh
                   </span>
-                  <span class="text-gray-500 text-sm">DESIGNER</span>
+                  <span class="text-gray-500 text-sm">Intern, IBM</span>
                 </span>
-              </a>
+              </div>
             </div>
           </div>
         </div>
