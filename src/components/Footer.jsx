@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../assets/edfoal-logo.png";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -9,7 +8,7 @@ const Footer = () => {
         <div className="grid row-gap-10 mb-8 lg:grid-cols-6">
           <div className="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4">
             <div className="hidden md:block">
-              <img src={logo} alt="Edfoal Logo" />
+              <img src="https://i.imgur.com/OhERUjG.png" alt="Edfoal Logo" />
               <p className="font-medium tracking-wide text-gray-300"></p>
             </div>
 
