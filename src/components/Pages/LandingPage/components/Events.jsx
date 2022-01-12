@@ -79,7 +79,9 @@ const Events = () => {
               alt="Frontend Development Roadmap"
             />
             <div className="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
-              <p className="mb-4 text-lg font-bold text-gray-100">The Kiss</p>
+              <p className="mb-4 text-lg font-bold text-gray-100">
+                Frontend Developer Roadmap
+              </p>
               <p className="text-sm tracking-wide text-gray-300">
                 Get yourself ready for the industry as a frontend developer.
               </p>
