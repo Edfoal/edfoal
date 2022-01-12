@@ -23,7 +23,6 @@ function App() {
 
       <Routes>
         <Route path="/" element={<LandingPage />} />
-        <Route path="/404" element={<NotFound />} />
         <Route path="/team" element={<TeamPage />} />
         <Route
           path="/roadmaps"
@@ -37,6 +36,7 @@ function App() {
         <Route path="/comingsoon" element={<ComingSoon />} />
         <Route path="/signin" element={<SignIn />} />
         <Route path="/register" element={<SignUp />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </Router>
