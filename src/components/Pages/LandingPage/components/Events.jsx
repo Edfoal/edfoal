@@ -37,8 +37,8 @@ const Events = () => {
         <Link to="/events" aria-label="View Item">
           <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
             <img
-              className="object-cover object-fill w-full h-56 md:h-64 xl:h-80"
-              src={SDE}
+              className="object-scale-down md:object-fill  w-full h-56 md:h-64 xl:h-80"
+              src="https://i.imgur.com/JVW4MAA.jpg"
               alt="SDE Roadmap"
             />
             <div className="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
@@ -56,8 +56,8 @@ const Events = () => {
         <Link to="/events" aria-label="View Item">
           <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
             <img
-              className="object-cover  object-fill w-full h-56 md:h-64 xl:h-80"
-              src={CCL}
+              className="object-scale-down md:object-fill  w-full h-56 md:h-64 xl:h-80"
+              src="https://i.imgur.com/qYk0Kf9.jpg"
               alt="College Chapter Lead"
             />
             <div className="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
@@ -74,8 +74,8 @@ const Events = () => {
         <Link to="/events" aria-label="View Item">
           <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
             <img
-              className="object-cover object-fill w-full h-56 md:h-64 xl:h-80"
-              src={WDE}
+              className="object-scale-down md:object-fill  w-full h-56 md:h-64 xl:h-80"
+              src="https://i.imgur.com/VfuN9lO.png"
               alt="Frontend Development Roadmap"
             />
             <div className="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
@@ -91,8 +91,8 @@ const Events = () => {
         <Link to="/events" aria-label="View Item">
           <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
             <img
-              className="object-fill w-full h-56 md:h-64 xl:h-80"
-              src={SDE}
+              className="object-scale-down md:object-fill  w-full h-56 md:h-64 xl:h-80"
+              src="https://i.imgur.com/JVW4MAA.jpg"
               alt="Software Development Engineer"
             />
             <div className="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
