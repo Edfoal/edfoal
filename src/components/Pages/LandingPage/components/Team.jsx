@@ -19,11 +19,11 @@ export const Team = () => {
             />
           </div>
           <div className="flex flex-col justify-center mt-5 sm:mt-0 sm:p-5 sm:col-span-2">
-            <p className="text-lg font-bold">Vinod Sir</p>
-            <p className="mb-4 text-xs text-gray-800">Backbone Of Edfoal</p>
+            <p className="text-lg font-bold">Vinod Singh</p>
+            <p className="mb-4 text-xs text-gray-800">Director</p>
             <p className="mb-4 text-sm tracking-wide text-gray-800">
-              Having a vast technical and leadership experience, he guides and
-              support us everytime.
+              He is the backbone of the initiative, having a vast technical and
+              leadership experience, he guides and support us in each vertical.
             </p>
             <div className="flex items-center space-x-3">
               <a
@@ -51,10 +51,11 @@ export const Team = () => {
             />
           </div>
           <div className="flex flex-col justify-center mt-5 sm:mt-0 sm:p-5 sm:col-span-2">
-            <p className="text-lg font-bold">Himashu periwaal</p>
-            <p className="mb-4 text-xs text-gray-800">Himashu periwaal</p>
+            <p className="text-lg font-bold">Himanshu Periwaal</p>
+            <p className="mb-4 text-xs text-gray-800">Advisor</p>
             <p className="mb-4 text-sm tracking-wide text-gray-800">
-              Guides and Advises us on growth
+              The brain behind our growth, himanshu has worked with many
+              successful startups, guide and advise us on we can grow.
             </p>
             <a
               href="https://www.linkedin.com/in/himanshuperiwal/"
@@ -83,7 +84,8 @@ export const Team = () => {
             <p className="text-lg font-bold">Deepak Singh</p>
             <p className="mb-4 text-xs text-gray-800">SDE Lead Mentor</p>
             <p className="mb-4 text-sm tracking-wide text-gray-800">
-              The person who is born to code and lead.
+              The person who is born to code and lead. He has guided a lot of
+              students for a successful career.
             </p>
             <a
               href="https://www.linkedin.com/in/deepak-singh-cs14/"
@@ -112,7 +114,8 @@ export const Team = () => {
             <p className="text-lg font-bold">Rajdeep Deb</p>
             <p className="mb-4 text-xs text-gray-800">WDE Lead Mentor</p>
             <p className="mb-4 text-sm tracking-wide text-gray-800">
-              The person who is born to program and guide.
+              Having built such an amazing career for himself, he is always
+              ready to help the student community.
             </p>
             <a
               href="https://www.linkedin.com/in/rajdeepdeb/"
