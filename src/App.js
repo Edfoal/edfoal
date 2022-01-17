@@ -23,7 +23,10 @@ function App() {
 
       <Routes>
         <Route path="/" element={<LandingPage />} />
+
         {/* <Route path="/team" element={<TeamPage />} /> */}
+
+
         <Route
           path="/roadmaps"
           element={<Navigate replace to="/comingsoon" />}
